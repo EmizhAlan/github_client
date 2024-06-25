@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const apiUrl = 'http://localhost:3000'; // Замените на ваш URL сервера Node.js
+const apiUrl = 'https://github-server.vercel.app/'; // Замените на ваш URL сервера Node.js
 
 function App() {
   const [repositories, setRepositories] = useState([]);
